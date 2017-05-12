@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Trivia Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+</head>
+</head>
+
+<body>
+
+    <div id="game-name">
+        <h1>Totally Trivial Trivia!</h1>
+    </div>
+
+    <button id="start" type="button" class="btn btn-primary btn-xl">Start</button>
+
+    <div id="main-container">
+
+        <div>
+            <h2>Time Remaining: <span id="counter">20</span></h2>
+        </div>
+
+        <div id="q1">
+            <h3>Who won the 1994 FIFA World Cup?</h3>
+            <form>
+                <input type="radio" name="National Team" value="Italy">Italy
+                <input type="radio" name="National Team" value="Argentina">Argentina
+                <input type="radio" name="National Team" value="Brazil">Brazil
+
+        </div>
+
+        <div id="q2">
+            <h3>Which of these star soccer players has never played for Real Madrid?</h3>
+
+            <input type="radio" name="Player" value="David Beckham">David Beckham
+            <input type="radio" name="Player" value="Lionel Messi">Lionel Messi
+            <input type="radio" name="Player" value="Ronaldo">Ronaldo
+        </div>
+
+        <div id="q3">
+            <h3>Why did the Indian national team withdraw from the FIFA World Cup competition in 1950?</h3>
+
+            <input type="radio" name="Reason" value="As a political protest">As a political protest
+            <input type="radio" name="Reason" value="Because they could not play barefoot">Because they could not play barefoot
+            <input type="radio" name="Reason" value="They didn't, that's just a soccer myth.">They didn't, that's just a soccer myth.
+            </form>
+
+            <br>
+            <button id="done" type="button" class="btn-xl btn-outline-success">Done</button>
+        </div>
+
+    </div>
+
+    <br>
+    <div id="hidden">
+
+        <p>All Done!</p>
+        <p id="correct-answer">Correct Answer:</p>
+        <p id="incorrect-answer">Incorrect Answer:</p>
+        <p id="unanswered">Unanswered:</p>
+
+    </div>
+
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
+
+</html>

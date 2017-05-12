@@ -1,0 +1,47 @@
+body {
+	background: #EDE574; 
+    background: -webkit-linear-gradient(to right, #E1F5C4, #EDE574);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E1F5C4, #EDE574); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-shadow: 1px 1px #79CBCA;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+#start {
+	background: #D7DDE8;
+	width: 20%;
+	text-align: center;
+	font-size: 25px;
+}
+
+#start:hover {
+	background: #33a6cc;
+}
+
+#main-container {
+	display: none;
+}
+
+
+.btn-xl {
+	background: #D7DDE8;
+	margin-top: 150px;
+    padding: 5px 5px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-shadow: 1px 1px #79CBCA;
+}
+
+.btn-xl:hover {
+	background: #33a6cc;
+}
+
+
+#hidden {
+	display: none;
+	font-size: 25px;
+}
